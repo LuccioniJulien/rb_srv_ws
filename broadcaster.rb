@@ -13,6 +13,5 @@ def handle_websocket(env)
     ws = nil
   end
 
-  # Return async Rack response
   ws.rack_response
 end
